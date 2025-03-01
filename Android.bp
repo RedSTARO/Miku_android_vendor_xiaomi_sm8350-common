@@ -5002,6 +5002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwvhidl",
+	allow_undefined_symbols: true,
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -5053,6 +5054,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwvdrmengine",
+	allow_undefined_symbols: true,
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6863,6 +6865,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwfdmmsrc_system",
+	allow_undefined_symbols: true,
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6905,6 +6908,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwfdservice",
+	check_elf_files: false,
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -7311,6 +7315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwfdnative",
+	allow_undefined_symbols: true,
 	owner: "xiaomi",
 	strip: {
 		none: true,
